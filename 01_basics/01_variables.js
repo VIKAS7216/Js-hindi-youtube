@@ -15,3 +15,4 @@ do not use var as it cannot find the difference between scope and
 functional scope
 */
 console.table([accountId,accountEmail,accountCity,accountPassword,accountState])
+// table function helps in displaying all the values in a tabular form(baar baar console.log nhi likhna padega)
