@@ -13,7 +13,7 @@ number when with comparison operators generally*/
 console.log(null > 0);
 console.log(null == 0);// is read differently
 console.log(null >= 0);
-
+console.log("comparison operator changes null to 0 but == does not do that")
 console.log(undefined == 0);
 console.log(undefined > 0);
 console.log(undefined < 0);
