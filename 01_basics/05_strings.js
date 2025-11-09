@@ -18,7 +18,7 @@ console.log(gameName.indexOf('t'));
 
 const newString = gameName.substring(0, 4)
 console.log(newString);
-
+// substring does not take negative values
 const anotherString = gameName.slice(-8, 4)
 console.log(anotherString);
 
