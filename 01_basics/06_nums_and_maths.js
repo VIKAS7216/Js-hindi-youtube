@@ -10,9 +10,9 @@ const balance = new Number(100)
 const otherNumber = 123.8966
 
 // console.log(otherNumber.toPrecision(4));
-
+//round off till precision integer
 const hundreds = 1000000
-// console.log(hundreds.toLocaleString('en-IN'));
+// console.log(hundreds.toLocaleString('en-IN')); // comma dedega value mein
 
 // +++++++++++++ Maths +++++++++++++++++++++++++++++
 
@@ -27,7 +27,7 @@ const hundreds = 1000000
 console.log(Math.random());
 console.log((Math.random()*10) + 1);
 console.log(Math.floor(Math.random()*10) + 1);
-
+// random gives value between 0 to 1
 const min = 10
 const max = 20
 
